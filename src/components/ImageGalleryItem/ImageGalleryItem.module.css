@@ -1,0 +1,17 @@
+.photoCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.photoCardImage {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+}
+
+.photoCard:hover,
+.photoCard:focus {
+  transform: scale(1.03);
+  cursor: zoom-in;
+}

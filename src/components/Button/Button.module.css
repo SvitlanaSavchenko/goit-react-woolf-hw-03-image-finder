@@ -1,0 +1,19 @@
+.loadMore {
+  display: inline-block;
+  padding: 8px 16px;
+  border-radius: 5px;
+  background-color: #4a61bd;
+  transition: all 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  text-align: center;
+  color: #e7e5e5;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 18px;
+  min-width: 180px;
+}
+
+.loadMore:hover,
+.loadMore:focus {
+  color: #131313;
+  background-color: #6b77c8;
+}
